@@ -15,7 +15,7 @@ ex) a=[1 2 3; 1 2 3]인 경우 txt파일로 1 2 3 \n 1 2 3이 저장된다.
 - circshift(행렬,[row col]) row방향으로 row만큼 이동, col방향으로 col만큼 이동
 
 ##파일 선택 
-file_dir = uigetdir('','Select the folder');
-file_list = dir(fullfile(file_dir,'*.txt')); 폴더안의 txt확장자를 가진 파일들을 모두 읽는다
-file_path = strcat(file_dir,'\',file_list(index).name); 해당 파일의 절대경로를 읽는다.
+- file_dir = uigetdir('','Select the folder');
+- file_list = dir(fullfile(file_dir,'*.txt')); 폴더안의 txt확장자를 가진 파일들을 모두 읽는다
+- file_path = strcat(file_dir,'\',file_list(index).name); 해당 파일의 절대경로를 읽는다.
 
