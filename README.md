@@ -9,7 +9,7 @@
 - fprintf(파일, '%type ', 행렬의 첫 줄)
 ex) a=[1 2 3; 1 2 3]인 경우 txt파일로 1 2 3 \n 1 2 3이 저장된다.
 
--fclose(파일) 파일을 닫는다.
+- fclose(파일) 파일을 닫는다.
 
 ##편한 함수들
 - circshift(행렬,[row col]) row방향으로 row만큼 이동, col방향으로 col만큼 이동
